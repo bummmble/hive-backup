@@ -7,7 +7,7 @@ import AWS from 'aws-sdk';
 import { exec } from 'child-process-promise';
 
 /* eslint-disable no-unused-vars */
-class Backup {
+export default class Backup {
   constructor(bucket = process.env.BACKUP_AWS_BUCKET, config = {}) {
     if (typeof bucket === 'object') {
       config = bucket;

@@ -1,0 +1,7 @@
+.nyc_output
+tests
+.editorconfig
+.eslintrc.js
+.gitignore
+build.js
+circle.yml

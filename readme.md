@@ -73,7 +73,7 @@ Returns a Promise that resolves with the S3 upload response or rejects with an E
 
 The tasks argument is an optional array that defaults to ['mongo', 'redis'];
 
-By defaults, this method runs `FrostBackup.mongo()`, `FrostBackup.redis()`, and for each one it then runs `FrostBackup.tar()` and `FrostBackup.upload()`
+By defaults, this method runs `Backup.mongo()`, `Backup.redis()`, and for each one it then runs `Backup.tar()` and `Backup.upload()`
 
 #### Backup.mongo()
 
